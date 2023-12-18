@@ -1,24 +1,71 @@
 body {
-  background-color: #dddcc8;
+  background-color: #f6e8ea;
 }
 nav {
   text-align: right;
-  color: #555c73;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* Change font to bebas neue*/
 h1 {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #5a5c70;
+  color: #27233a;
 }
-
 h3 {
   text-align: center;
-  color: #cc8871;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5e4b56;
+}
+.homeimages {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.aboutme {
+  display: inline-block;
+  width: 50%;
+}
+.portfolio {
+  display: inline-block;
+  width: 50%;
+}
+footer {
+  /* background-color: #5A5C70;  select complementary footer color*/
+  opacity: 50%;
 }
 
-.column1 {
-  float: left;
-  width: 41%;
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #a67b7b;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: white;
+}
+/* .aboutMeImage {
+  display: inline-block;
+} */
+.aboutMePhoto {
+  width: 20%;
+  margin: 35px;
+  display: inline-block;
+}
+
+.aboutMeText {
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
