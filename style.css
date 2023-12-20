@@ -1,18 +1,28 @@
 body {
   background-color: #f6e8ea;
 }
+header {
+  background-color: #a67b7b;
+  margin: 0;
+  border: #a67b7b;
+  padding: 25px;
+}
 nav {
   text-align: right;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Afacad", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: aliceblue;
 }
 h1 {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Afacad", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   color: #27233a;
 }
 h3 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Afacad", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   color: #5e4b56;
 }
 .homeimages {
@@ -66,6 +76,19 @@ footer {
   display: inline-block;
   text-align: justify;
   vertical-align: top;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  font-family: "Afacad", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
+
+.portfolioText {
+  display: block;
+  margin: 25px 275px;
+  padding: 15px;
+  /* border-radius: 35%; */
+  background-color: #5e4b56;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Afacad", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
