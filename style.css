@@ -1,17 +1,30 @@
 body {
-  background-color: #f6e8ea;
+  background-color: #221d1e;
 }
 header {
-  background-color: #a67b7b;
-  margin: 0;
-  border: #a67b7b;
-  padding: 25px;
+  background-color: #b69aff;
+  /* margin: 15px 0 0 15px; */
+  /* display: flex; */
+  height: 75px;
+  width: 100vw;
+  overflow: hidden;
+  
 }
-nav {
+.topInitials {
+  color: #221d1e;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  text-align: left;
+  justify-self: center;
+  margin: 0 35px ;
+}
+.topNav {
+  display: inline-block;
   text-align: right;
-  font-family: "Afacad", sans-serif;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  color: aliceblue;
+  font-family: "Bebas Neue", sans-serif;
+  color: #221d1e;
+  font-size: larger;
+  margin: ;
 }
 h1 {
   text-align: center;
@@ -25,7 +38,20 @@ h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: #5e4b56;
 }
-.homeimages {
+
+.hiMyName {
+  color: #b69aff;
+  font-size: 25vh;
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  font-family: "Bebas Neue", sans-serif;
+;
+}
+
+
+
+/* .homeimages {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -37,7 +63,7 @@ h3 {
 .portfolio {
   display: inline-block;
   width: 50%;
-}
+} */
 footer {
   /* background-color: #5A5C70;  select complementary footer color*/
   opacity: 50%;
@@ -54,7 +80,7 @@ footer {
 .socialIcons a {
   text-decoration: none;
   padding: 10px;
-  background-color: #a67b7b;
+  background-color: #b69aff;
   margin: 10px;
   border-radius: 50%;
 }
@@ -91,4 +117,3 @@ footer {
   font-family: "Afacad", sans-serif;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
-
