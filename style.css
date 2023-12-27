@@ -122,7 +122,7 @@ footer {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
-  grid-column-end: ;
+  /* grid-column-end: ; */
   text-align: justify;
   vertical-align: center;
   font-size: x-large;
