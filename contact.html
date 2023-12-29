@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get In Touch</title><link rel="stylesheet" href="style.css" />
-     <link
+    <title>IM: Contact</title>
+      <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+    <!-- link to font -->
+    <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
+    <!-- link to social icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -15,9 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-     <script src="javascript.js"></script>
-  </head>
-  <body>
+</head>
+<body>
     <header>
       <nav>
         <a class="topInitials">I M</a>
@@ -31,40 +34,40 @@
     </header>
     <article>
         <h2>Let's keep in touch</h2>
-        <form action="contactForm">
+        <form action="contactsuccess.html">
+            <div class="nameandemail">
             <div class="item1">
                 <label for="fullName"> Full Name: </label>
-                <input type="text" name="fullName" id="fullName">
+                <input class="item1box" type="text" name="fullName" id="fullName">
              
             </div>
             <div class="item2">
                 <label for="email">Email: </label>
-                <input type="email" name="email" id="email">
+                <input class="item2box" type="email" name="email" id="email">
             </div>
+        </div>
+        <div class="message">
             <div class="item3">
-                <label for="paragraph"> Enter Message: </label>
-                <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
+                <label class="messageText" for="paragraph"> Enter Message: </label>
+                <textarea class="item3box" name="paragraph" id="paragraph" cols="50" rows="10"></textarea>
             </div>
             <div class="submit">
-               <input type="submit" value="Submit!" /> 
+               <input  class="submit" type="submit" value="Submit!" /> 
+            </div>
             </div>
         </form>
     </article>
-
-   
 
     <footer>
       <div class="footerContainer">
         <div class="socialIcons">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-github"></i></a>
-          <!-- add icon for email -->
+          <a href=""><i class="fa-brands fa-vimeo"></i></a>
           <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
     </footer>
-</head>
-<body>
     
 </body>
 </html>
