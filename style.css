@@ -61,7 +61,7 @@ nav {
   color: #753d6c;
 }
 
-/* About Me page style */
+/* About Me page style */ 
 .aboutMe {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -91,7 +91,6 @@ nav {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
-
   text-align: justify;
   vertical-align: center;
   font-size: x-large;
