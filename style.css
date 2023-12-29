@@ -77,9 +77,6 @@ footer {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 2.5rem;
-
-
-
 }
 .socialIcons {
   display: flex;
@@ -97,12 +94,11 @@ footer {
   font-size: 2em;
   color: white;
 }
-.aboutMe{
+.aboutMe {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-content: space-evenly;
-
 }
 
 .aboutMePhoto {
@@ -114,8 +110,6 @@ footer {
   margin-left: 75px;
   padding-right: 25px;
   align-items: start;
-  
- 
 }
 
 .aboutMeText {
@@ -133,7 +127,6 @@ footer {
   color: #5f428c;
 }
 
-
 .portComingSoon {
   text-align: center;
   font-family: "Jost", sans-serif;
@@ -143,10 +136,9 @@ footer {
 
 /* Contact CSS */
 h2 {
-    font-family: "Jost", sans-serif;
-    color: #5f428c;
-    text-align: center;
-
+  font-family: "Jost", sans-serif;
+  color: #5f428c;
+  text-align: center;
 }
 .contactForm {
   display: flex;
